@@ -44,7 +44,7 @@ const App: React.FC = () => {
   }, [currentView, navigationState, navigate]);
 
   return (
-    <div className="min-h-screen bg-cover bg-center bg-fixed text-gray-200" style={{ backgroundImage: "url('https://img.goodfon.com/wallpaper/big/8/1d/grassland-travianistye-soobshchestva-gory-kholmy-stado-otara.webp')" }}>
+    <div className="min-h-screen bg-cover bg-center bg-fixed text-gray-200" style={{ backgroundImage: "url('https://wallpapers.com/images/hd/beautiful-mountain-view-adgk3rus9r8z3qs0.jpg')" }}>
       <div className="absolute inset-0 bg-black/70 backdrop-blur-sm z-0"></div>
       <div className="relative z-10 font-sans">
         <Header currentView={currentView} setView={navigate} />
